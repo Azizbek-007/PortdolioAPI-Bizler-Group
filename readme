@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name user --attributes username:string,password:string,role:string
+npx sequelize-cli model:generate --name category --attributes name:string
+npx sequelize-cli model:generate --name project --attributes name:string,category_id:integer,images:string
